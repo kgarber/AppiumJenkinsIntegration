@@ -9,7 +9,7 @@ require "selenium/client"
 require "selenium-webdriver"
 require "time"
 require "highline/import"
-require "rexml/document"
+require "rexml/document"	 	
 require 'active_support/all'
 #require "mongo"
 require 'net/http'
@@ -24,15 +24,15 @@ require './typingElement'
 require './clickDone'
 require './firstAndroidTest'
 capabilities = {
-  'appium-version': '1.0',
-  'platformName': 'Android',
-  'platformVersion': '4.4.4',
-  "deviceName": "android-206290d2a09393c7",
-  "app": "/Users/zerionsoftware/Desktop/appium_5_7_0_20.apk",
-  "fullReset": false,
-  "appPackage": "com.zerion.apps.iform.appium",
-  "appActivity": "com.zerion.apps.iform.core.activities.SplashActivity",
-  "noReset": true
+  'appium-version'=> '1.0',
+  'platformName'=> 'Android',
+  'platformVersion'=> '4.4.4',
+  "deviceName"=> "android-206290d2a09393c7",
+  "app"=> "/Users/zerionsoftware/Desktop/appium_5_7_0_20.apk",
+  "fullReset"=> false,
+  "appPackage"=> "com.zerion.apps.iform.appium",
+  "appActivity"=> "com.zerion.apps.iform.core.activities.SplashActivity",
+  "noReset"=> true
 }
 
 #["hierarchy"]["android.widget.FrameLayout"]["android.view.View"]["android.widget.FrameLayout"]["android.widget.RelativeLayout"]["android.widget.Listview"]["android.widget.RelativeLayout"]
