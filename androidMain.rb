@@ -25,10 +25,6 @@ require './typingElement'
 require './clickDone'
 require './firstAndroidTest'
 
-#spawn 'sleep 1; appium' #=> 430
-#spawn 'echo two' #=> 431
-#sleep 2
-#sleep(5)
 capabilities = {
   'appium-version'=> '1.0',
   'platformName'=> 'Android',
