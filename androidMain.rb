@@ -1,7 +1,6 @@
 require "test/unit"
 require "rubygems"
 gem "selenium-client"
-puts "asdasdasda"
 require "appium_lib"
 gem "appium_lib"
 
@@ -26,6 +25,10 @@ require './typingElement'
 require './clickDone'
 require './firstAndroidTest'
 
+spawn 'sleep 1; appium' #=> 430
+spawn 'echo two' #=> 431
+sleep 2
+sleep(5)
 capabilities = {
   'appium-version'=> '1.0',
   'platformName'=> 'Android',
