@@ -59,7 +59,7 @@ firstAndroidTest()
 #clickDone()
 #syncDevice()
 
-#puts "did it scroll?"
+#puts "did it scroll?"1231231
 sleep(5)
 #exists {text("Socket Demo")} ? puts("true") : puts("false")
 #@driver.scroll_to "Fol 51"
