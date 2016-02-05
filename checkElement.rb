@@ -8,6 +8,6 @@ s = h["hierarchy"]["android.widget.FrameLayout"]["android.view.View"]["android.w
 #puts s["index"]
 #j= JSON.parse(s)
 puts s["android.widget.ListView"]["android.widget.RelativeLayout"].find {|h2| h2["android.widget.TextView"]["text"]==elementName}["android.widget.RelativeLayout"]["android.widget.TextView"]["text"]
-#{|h2| h2["android.widget.RelativeLayout"]["android.widget.TextView"]["text"]=="Awesome"}["bounds"]
+#{|h2| h2["android.widget.RelativeLayout"]["android.widget.TextView"]["text"]=="Awesome"}["bounds"]33
 
 end
