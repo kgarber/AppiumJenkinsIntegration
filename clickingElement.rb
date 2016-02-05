@@ -8,7 +8,7 @@ def clickElement(findText,sendingText)
 while exists {text(findText)} == false
 @driver.swipe(:start_x => 0, :start_y =>1000, :end_x => 0, :end_y => 50, :duration =>2000)
 end
-
+#boogidy
 @driver.find_element(:name, findText).click()
 @driver.find_element(:uiautomator, "new UiSelector().className(\"android.widget.EditText\")").send_keys sendingText
 @driver.find_element(:uiautomator, "new UiSelector().resourceId(\"com.zerion.apps.iform.appium:id/activity_element_editor_action_done\")").click()
