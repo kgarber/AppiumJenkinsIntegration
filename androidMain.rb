@@ -24,6 +24,7 @@ require './scrolltos'
 require './typingElement'
 require './clickDone'
 require './firstAndroidTest'
+#require something
 
 capabilities = {
   'appium-version'=> '1.0',
