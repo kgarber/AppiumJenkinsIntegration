@@ -12,5 +12,5 @@ end
 @driver.find_element(:name, findText).click()
 @driver.find_element(:uiautomator, "new UiSelector().className(\"android.widget.EditText\")").send_keys sendingText
 @driver.find_element(:uiautomator, "new UiSelector().resourceId(\"com.zerion.apps.iform.appium:id/activity_element_editor_action_done\")").click()
-
+#awesome comment
 end
