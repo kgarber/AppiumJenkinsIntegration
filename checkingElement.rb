@@ -19,7 +19,7 @@ end
 def swipeElement(findText)
 	#@driver.extend Selenium::WebDriver::DriverExtensions::HasTouchScreen123123
 # This is a workaround for Appium issue 4311, 
-# It can and should be replaced by the following when the issue is resolved
+# It can and should be replaced by the following when the issue is resolved1231233
 # appium.driver.scroll_to text
 #text = %Q("#{text}")
 #args = appium.scroll_uiselector("new UiSelector().text(#{text})")
