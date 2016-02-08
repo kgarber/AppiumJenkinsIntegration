@@ -5,7 +5,7 @@ h = JSON.parse(pageSource)
 s = h["hierarchy"]["android.widget.FrameLayout"]["android.view.View"]["android.widget.FrameLayout"].find {|h1| h1["bounds"]=="[0,219][1080,1920]"}["android.widget.RelativeLayout"]
 #puts s["bounds"]
 #puts s["android.widget.ListView"]["android.widget.RelativeLayout"]
-#puts s["index"]efef
+#puts s["index"]efef333333
 #j= JSON.parse(s)
 puts s["android.widget.ListView"]["android.widget.RelativeLayout"].find {|h2| h2["android.widget.TextView"]["text"]==elementName}["android.widget.RelativeLayout"]["android.widget.TextView"]["text"]
 #{|h2| h2["android.widget.RelativeLayout"]["android.widget.TextView"]["text"]=="Awesome"}["bounds"]33333
