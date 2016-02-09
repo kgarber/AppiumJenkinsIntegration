@@ -4,7 +4,7 @@ def textElement(findText,sendingText)
 # appium.driver.scroll_to text
 #text = %Q("#{text}")
 #args = appium.scroll_uiselector("new UiSelector().text(#{text})")
-#appium.driver.find_element :uiautomator, args12323
+#appium.driver.find_element :uiautomator, args123233333
 while exists {text(findText)} == false
 @driver.swipe(:start_x => 0, :start_y =>1000, :end_x => 0, :end_y => 50, :duration =>2000)
 end
