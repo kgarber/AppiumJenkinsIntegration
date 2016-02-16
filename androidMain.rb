@@ -4,7 +4,7 @@ gem "selenium-client"
 require "appium_lib"
 gem "appium_lib"
 
-#gem "selenium-webdriver", "~> 2.37.0"
+#gem "selenium-webdriver", "~> 2.37.0"33
 #gem "rspec", "=2.14.1" 
 require "selenium/client"
 require "selenium-webdriver"
